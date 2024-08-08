@@ -1,0 +1,40 @@
+{
+  "EmployeeData": [
+    {
+      "id": "73a3",
+      "name": "Kishan Sah",
+      "userName": "Kishan11",
+      "password": "Sah@123",
+      "email": "ks@gmail.com",
+      "address": "Nepal",
+      "condition": true
+    },
+    {
+      "id": "c04d",
+      "name": "Prativa Sah",
+      "userName": "prativa01",
+      "password": "P.@12",
+      "email": "ps@gmail.com",
+      "address": "Bengaluru",
+      "condition": true
+    },
+    {
+      "id": "baf5",
+      "name": "Zoufisa",
+      "userName": "Zouffi",
+      "password": "Zo@fis",
+      "email": "Zou@gmail.com",
+      "address": "Mumbai",
+      "condition": true
+    },
+    {
+      "id": "4342",
+      "name": "Zenith",
+      "email": "Zenith@gmail.com",
+      "userName": "Zen",
+      "password": "zen@2505",
+      "address": "America",
+      "condition": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<div class="container-fluid" >
+    <h2>Delete Employee Data</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Address</th>
+        <th>Condition</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of EmpData">
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.userName }}</td>
+        <td>{{ employee.email }}</td>
+        <td>{{ employee.password }}</td>
+        <td>{{ employee.address }}</td>
+        <td>@if (employee.condition) {
+          Accepted}</td>
+        <td><button class="btn btn-danger" (click)="DeleteEmployee(employee)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  </div>
